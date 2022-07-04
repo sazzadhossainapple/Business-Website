@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+/* header section  */
+.header-container {
+  background-image: url(images/bg-header.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+.header-top-item {
+  display: flex;
+  padding: 15px 100px;
+  border: 1px solid rgb(232, 228, 228);
+}
+.header-top-left-search {
+  width: 50%;
+  align-items: center;
+}
+.header-top-left-search input {
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 17px;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+::placeholder {
+  opacity: 0.8;
+}
+.header-top-right-menu {
+  width: 50%;
+  align-items: center;
+}
+.header-top-right-menu,
+.fa-solid,
+.fas {
+  font-weight: 900;
+  font-size: 25px;
+  color: #fff;
+  float: right;
+  margin: 5px 0;
+  cursor: pointer;
+}
+.header-middle-item {
+  margin-top: 10%;
+  margin-left: 25%;
+}
+.header-middle-item h1 {
+  font-size: 60px;
+}
+.header-buttom-item {
+  display: flex;
+}
+.header-buttom-item-link {
+  width: 40%;
+  background-image: linear-gradient(
+    rgba(194, 174, 174, 0.5),
+    rgba(194, 174, 174, 0.5)
+  );
+  margin-top: -30px;
+  padding: 70px 0 132px 0;
+}
+.header-buttom-item-link a {
+  margin-left: 63%;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* about section */
+.about-container {
+  background: #d6c8b8;
+  width: 100%;
+  height: 100%;
+}
+.about-top {
+  padding: 8% 10%;
+}
+.about-top-social-icon {
+  float: right;
+}
+.about-top-social-icon span i {
+  padding: 0 20px;
+  color: #000;
+  cursor: pointer;
+  font-size: 20px;
+}
+.about-buttom {
+  display: flex;
+}
+.about-buttom-right-content {
+  width: 40%;
+  margin-top: 120px;
+  padding-left: 10%;
+}
+.about-buttom-right-content h2 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-right: 50%;
+}
+.about-buttom-right-content p {
+  font-size: 18px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+/* resume section */
+.resume-container {
+  height: 100%;
+  background: #000;
+}
+.resume-container-info {
+  padding: 60px 80px;
+}
+.resume-container-top h2 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.resume-container-buttom {
+  color: #fff;
+  display: flex;
+  gap: 30px;
+}
+.resume-container-buttom-left-content {
+  flex: 1;
+}
+.first-content {
+  background-color: #d9d9d9;
+  padding: 80px 30px;
+  color: #000;
+}
+.first-content h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.first-content p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.second-content {
+  padding: 80px 30px;
+}
+.second-content h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.second-content p {
+  font-size: 18px;
+  line-height: 25px;
+}
+.resume-container-buttom-middle-content {
+  flex: 1;
+}
+.resume-img {
+  max-height: 604px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.resume-container-buttom-right-content {
+  flex: 1;
+}
+
+/* slider section */
+.slider-contanier {
+  background-image: url(images/bg-slider.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.slider-content {
+  color: #fff;
+  padding-top: 27%;
+  padding-left: 6%;
+  padding-right: 40%;
+  text-align: center;
+}
+.slider-title {
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+/* sports section */
+.sports-container {
+  background: #d6c8b8;
+  height: 100%;
+}
+.sports-content {
+  padding: 80px 100px;
+}
+.sports-content h2 {
+  margin-bottom: 20px;
+}
+#sports-info {
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-right: 50%;
+  line-height: 28px;
+}
+.sports-button {
+  text-decoration: none;
+  color: #000;
+  padding: 10px 40px;
+  border: 2px solid #000;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
