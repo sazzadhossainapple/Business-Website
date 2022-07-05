@@ -211,3 +211,169 @@
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
+/* table pricing section */
+.table-container {
+  height: 100%;
+}
+.table-pricing {
+  padding: 90px;
+}
+.table-title {
+  margin-bottom: 40px;
+}
+.table-title h2 {
+  margin-bottom: 20px;
+}
+#frist-row {
+  background-color: #d6c8b8;
+}
+#second-row {
+  background-color: #d9d9d9;
+}
+.monthly-price {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.price-item {
+  font-size: 40px;
+}
+td,
+th {
+  text-align: left;
+  padding: 20px 60px;
+}
+
+/* post section */
+.post-container {
+  background: #000;
+}
+.post-info {
+  display: flex;
+  gap: 20px;
+  padding: 60px 100px;
+  color: #fff;
+}
+.post-info-left {
+  flex: 1;
+  background-color: #333;
+  padding: 30px 30px 65px 30px;
+}
+.post-info-left img {
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
+}
+.post-info-left h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.post-info-left p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.post-info-left span {
+  font-size: 16px;
+  color: #707371;
+}
+.post-info-middle {
+  flex: 1;
+}
+.post-info-right {
+  flex: 1;
+}
+
+/* contact section */
+.contact-container {
+  background-image: url(images/bg-contcat.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* min-height: 714px; */
+}
+.contact-wapper {
+  padding: 100px;
+}
+.contact-table {
+  background: #fff;
+  padding: 20px;
+}
+.contact-table-content {
+  display: flex;
+  gap: 60px;
+}
+.contact-left {
+  flex: 1;
+}
+.contact-left h1 {
+  font-size: 150px;
+  color: #d6c8b8;
+  font-weight: 700;
+  margin-left: -45px;
+  margin-bottom: 20px;
+}
+.contact-left h2 {
+  margin-bottom: 20px;
+}
+.contact-left p {
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.contact-left button {
+  padding: 15px 40px;
+  background-color: transparent;
+  border: 2px solid #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.contact-right {
+  flex: 2;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 25px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+form {
+  margin-top: 80px;
+}
+input[type="submit"] {
+  padding: 15px 40px;
+  background-color: transparent;
+  border: 2px solid #000;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 20px;
+  float: right;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 30px;
+}
+.footer-paragraph {
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.footer-paragraph a {
+  color: #a1a1a1;
+}
